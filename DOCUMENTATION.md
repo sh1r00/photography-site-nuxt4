@@ -63,3 +63,6 @@ npm run generate   # emits static files to .output/public
 - `/*` → `/200.html` (200) SPA fallback
 
 Live: https://photo-site-sh1r00-427.netlify.app
+
+## TODO / Roadmap
+- [ ] Point a custom domain (optional) — for client-facing work; a single wildcard domain can cover all sites.
