@@ -12,6 +12,10 @@
 
 <script setup lang="ts">
 const { t } = useI18n()
+import { storeToRefs } from 'pinia'
 import { useDarkModeStore } from '~/stores/darkMode'
-const { isDark, toggle } = useDarkModeStore()
+const store = useDarkModeStore()
+const { isDark } = storeToRefs(store)
+const toggle = store.toggle
+onMounted(() => store.initialize())
 </script>
