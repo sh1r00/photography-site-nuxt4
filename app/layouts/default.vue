@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <a href="#main-content" class="skip-to-content">{{ $t('skip_to_content') }}</a>
+    <a href="#main-content" class="skip-to-content">{{ t('skip_to_content') }}</a>
 
     <OHeader />
 

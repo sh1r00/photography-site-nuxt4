@@ -2,8 +2,8 @@
   <div class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <!-- Header -->
     <div class="text-center mb-20 animate-fade-in-up">
-      <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">{{ $t('about_title') }}</h1>
-      <p class="text-charcoal-400 text-xl">{{ $t('about_subtitle') }}</p>
+      <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">{{ t('about_title') }}</h1>
+      <p class="text-charcoal-400 text-xl">{{ t('about_subtitle') }}</p>
     </div>
 
     <!-- Bio Section -->
@@ -13,18 +13,18 @@
       </div>
 
       <div class="animate-fade-in-up" style="animation-delay: 0.15s">
-        <h2 class="text-2xl font-bold text-gold-400 mb-6">{{ $t('about_bio_title') }}</h2>
+        <h2 class="text-2xl font-bold text-gold-400 mb-6">{{ t('about_bio_title') }}</h2>
         <div class="space-y-4 text-charcoal-300 leading-relaxed">
-          <p>{{ $t('about_bio_p1') }}</p>
-          <p>{{ $t('about_bio_p2') }}</p>
-          <p>{{ $t('about_bio_p3') }}</p>
+          <p>{{ t('about_bio_p1') }}</p>
+          <p>{{ t('about_bio_p2') }}</p>
+          <p>{{ t('about_bio_p3') }}</p>
         </div>
       </div>
     </div>
 
     <!-- Philosophy -->
     <div class="mb-20">
-      <h2 class="text-2xl font-bold text-gold-400 mb-10 text-center">{{ $t('about_philosophy_title') }}</h2>
+      <h2 class="text-2xl font-bold text-gold-400 mb-10 text-center">{{ t('about_philosophy_title') }}</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div
           v-for="(item, index) in philosophyItems"
@@ -42,7 +42,7 @@
 
     <!-- Gear -->
     <div>
-      <h2 class="text-2xl font-bold text-gold-400 mb-10 text-center">{{ $t('about_gear_title') }}</h2>
+      <h2 class="text-2xl font-bold text-gold-400 mb-10 text-center">{{ t('about_gear_title') }}</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         <!-- Camera Bodies -->
         <div class="p-6 rounded-2xl bg-charcoal-800/30 border border-charcoal-800">

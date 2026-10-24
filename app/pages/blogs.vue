@@ -2,8 +2,8 @@
   <div class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <!-- Header -->
     <div class="text-center mb-16 animate-fade-in-up">
-      <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">{{ $t('blogs_title') }}</h1>
-      <p class="text-charcoal-400 text-xl">{{ $t('blogs_subtitle') }}</p>
+      <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">{{ t('blogs_title') }}</h1>
+      <p class="text-charcoal-400 text-xl">{{ t('blogs_subtitle') }}</p>
     </div>
 
     <!-- Blog Grid -->
@@ -35,7 +35,7 @@
             :to="localePath(`/blog/${post.slug}`)"
             class="inline-flex items-center gap-2 text-gold-400 hover:text-gold-300 transition-colors font-medium text-sm"
           >
-            {{ $t('blogs_read_more') }}
+            {{ t('blogs_read_more') }}
             <AIcon name="arrow-right" size="16" />
           </NuxtLink>
         </div>

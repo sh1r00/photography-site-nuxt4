@@ -9,14 +9,14 @@
             <span class="text-lg font-bold text-gold-400">LENS</span>
           </div>
           <p class="text-charcoal-400 text-sm leading-relaxed">
-            {{ $t('site_description') }}
+            {{ t('site_description') }}
           </p>
         </div>
 
         <!-- Quick Links -->
         <div>
           <h3 class="text-sm font-semibold text-charcoal-200 uppercase tracking-wider mb-4">
-            {{ $t('nav_home') }}
+            {{ t('nav_home') }}
           </h3>
           <ul class="space-y-2">
             <li v-for="link in footerLinks" :key="link.to">
@@ -33,7 +33,7 @@
         <!-- Social & Contact -->
         <div>
           <h3 class="text-sm font-semibold text-charcoal-200 uppercase tracking-wider mb-4">
-            {{ $t('contact_social_title') }}
+            {{ t('contact_social_title') }}
           </h3>
           <div class="flex gap-3">
             <a
@@ -54,20 +54,20 @@
       <!-- Bottom bar -->
       <div class="mt-10 pt-6 border-t border-charcoal-800 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p class="text-sm text-charcoal-500">
-          &copy; {{ new Date().getFullYear() }} LENS Photography. {{ $t('footer_rights') }}
+          &copy; {{ new Date().getFullYear() }} LENS Photography. {{ t('footer_rights') }}
         </p>
         <div class="flex gap-6">
           <NuxtLink
             :to="localePath('/page/privacy')"
             class="text-sm text-charcoal-500 hover:text-gold-400 transition-colors"
           >
-            {{ $t('footer_privacy') }}
+            {{ t('footer_privacy') }}
           </NuxtLink>
           <NuxtLink
             :to="localePath('/page/terms')"
             class="text-sm text-charcoal-500 hover:text-gold-400 transition-colors"
           >
-            {{ $t('footer_terms') }}
+            {{ t('footer_terms') }}
           </NuxtLink>
         </div>
       </div>

@@ -8,17 +8,17 @@
       <!-- Hero content -->
       <div class="relative z-20 text-center px-4 max-w-4xl mx-auto">
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight text-balance animate-fade-in-up">
-          {{ $t('hero_title') }}
+          {{ t('hero_title') }}
         </h1>
         <p class="text-lg sm:text-xl text-charcoal-300 mb-10 max-w-2xl mx-auto animate-fade-in-up" style="animation-delay: 0.15s">
-          {{ $t('hero_subtitle') }}
+          {{ t('hero_subtitle') }}
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style="animation-delay: 0.3s">
           <ABaseButton variant="primary" size="lg" :to="localePath('/contact')">
-            {{ $t('hero_cta') }}
+            {{ t('hero_cta') }}
           </ABaseButton>
           <ABaseButton variant="outline" size="lg" @click="scrollToPortfolio">
-            {{ $t('hero_contact') }}
+            {{ t('hero_contact') }}
           </ABaseButton>
         </div>
 
@@ -32,8 +32,8 @@
     <!-- Portfolio Grid -->
     <section id="portfolio" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ $t('portfolio_title') }}</h2>
-        <p class="text-charcoal-400 text-lg">{{ $t('portfolio_subtitle') }}</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ t('portfolio_title') }}</h2>
+        <p class="text-charcoal-400 text-lg">{{ t('portfolio_subtitle') }}</p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -60,8 +60,8 @@
     <section class="py-20 bg-charcoal-900/50">
       <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ $t('services_title') }}</h2>
-          <p class="text-charcoal-400 text-lg">{{ $t('services_subtitle') }}</p>
+          <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ t('services_title') }}</h2>
+          <p class="text-charcoal-400 text-lg">{{ t('services_subtitle') }}</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -84,8 +84,8 @@
     <!-- Testimonials -->
     <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ $t('testimonials_title') }}</h2>
-        <p class="text-charcoal-400 text-lg">{{ $t('testimonials_subtitle') }}</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ t('testimonials_title') }}</h2>
+        <p class="text-charcoal-400 text-lg">{{ t('testimonials_subtitle') }}</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -114,8 +114,8 @@
     <section class="py-20 bg-charcoal-900/50">
       <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ $t('instagram_title') }}</h2>
-          <p class="text-charcoal-400 text-lg">{{ $t('instagram_subtitle') }}</p>
+          <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{{ t('instagram_title') }}</h2>
+          <p class="text-charcoal-400 text-lg">{{ t('instagram_subtitle') }}</p>
         </div>
 
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">

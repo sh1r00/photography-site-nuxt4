@@ -6,7 +6,7 @@
       class="inline-flex items-center gap-2 text-charcoal-400 hover:text-gold-400 transition-colors mb-10"
     >
       <AIcon name="arrow-left" size="18" />
-      {{ $t('blogs_back') }}
+      {{ t('blogs_back') }}
     </NuxtLink>
 
     <!-- Article found -->
@@ -37,10 +37,10 @@
 
     <!-- Not found fallback -->
     <div v-else class="text-center py-20">
-      <h1 class="text-4xl font-bold text-white mb-4">{{ $t('page_not_found_title') }}</h1>
-      <p class="text-charcoal-400 mb-8">{{ $t('page_not_found_message') }}</p>
+      <h1 class="text-4xl font-bold text-white mb-4">{{ t('page_not_found_title') }}</h1>
+      <p class="text-charcoal-400 mb-8">{{ t('page_not_found_message') }}</p>
       <ABaseButton variant="primary" :to="localePath('/')">
-        {{ $t('page_not_found_cta') }}
+        {{ t('page_not_found_cta') }}
       </ABaseButton>
     </div>
   </div>
