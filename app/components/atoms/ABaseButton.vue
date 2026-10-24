@@ -18,9 +18,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, resolveComponent } from 'vue'
 import type { PropType } from 'vue'
 import type { RouteLocationRaw } from 'vue-router'
+
+const NuxtLink = resolveComponent('NuxtLink')
 
 const props = defineProps({
   type: { type: String, default: 'button' },
